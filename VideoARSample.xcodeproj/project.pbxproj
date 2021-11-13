@@ -16,6 +16,8 @@
 		80F84450273F98780011BA49 /* VideoARSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F8444F273F98780011BA49 /* VideoARSampleTests.swift */; };
 		80F8445A273F98780011BA49 /* VideoARSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F84459273F98780011BA49 /* VideoARSampleUITests.swift */; };
 		80F8445C273F98780011BA49 /* VideoARSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F8445B273F98780011BA49 /* VideoARSampleUITestsLaunchTests.swift */; };
+		80F84469273F9FEC0011BA49 /* satou.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 80F84468273F9FEC0011BA49 /* satou.mp4 */; };
+		80F8446D273FACE30011BA49 /* RecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F8446C273FACE30011BA49 /* RecordingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		80F84455273F98780011BA49 /* VideoARSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoARSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F84459273F98780011BA49 /* VideoARSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoARSampleUITests.swift; sourceTree = "<group>"; };
 		80F8445B273F98780011BA49 /* VideoARSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoARSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80F84468273F9FEC0011BA49 /* satou.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = satou.mp4; sourceTree = "<group>"; };
+		80F8446C273FACE30011BA49 /* RecordingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +102,14 @@
 		80F84438273F98770011BA49 /* VideoARSample */ = {
 			isa = PBXGroup;
 			children = (
+				80F84468273F9FEC0011BA49 /* satou.mp4 */,
 				80F84439273F98770011BA49 /* AppDelegate.swift */,
 				80F8443B273F98770011BA49 /* art.scnassets */,
 				80F8443D273F98770011BA49 /* ViewController.swift */,
 				80F8443F273F98770011BA49 /* Main.storyboard */,
 				80F84442273F98780011BA49 /* Assets.xcassets */,
 				80F84444273F98780011BA49 /* LaunchScreen.storyboard */,
+				80F8446C273FACE30011BA49 /* RecordingButton.swift */,
 			);
 			path = VideoARSample;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 				80F84446273F98780011BA49 /* LaunchScreen.storyboard in Resources */,
 				80F84443273F98780011BA49 /* Assets.xcassets in Resources */,
 				80F84441273F98770011BA49 /* Main.storyboard in Resources */,
+				80F84469273F9FEC0011BA49 /* satou.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F8446D273FACE30011BA49 /* RecordingButton.swift in Sources */,
 				80F8443E273F98770011BA49 /* ViewController.swift in Sources */,
 				80F8443A273F98770011BA49 /* AppDelegate.swift in Sources */,
 			);
